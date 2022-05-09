@@ -1,8 +1,9 @@
-import { StatusBar } from 'expo-status-bar';
 import React from 'react';
+import { StatusBar } from 'expo-status-bar';
 import { StyleSheet, View } from 'react-native';
-import Typography from './components/Typography';
-import colors from './constants/colors';
+
+import Typography from './src/components/Typography';
+import colors from './src/constants/colors';
 
 export default function App() {
   return (
