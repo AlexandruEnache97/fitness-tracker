@@ -1,14 +1,14 @@
 import React from 'react';
-import { StatusBar } from 'expo-status-bar';
 import { StyleSheet, View } from 'react-native';
+import { StatusBar } from 'expo-status-bar';
 
-import Typography from './src/components/Typography';
 import colors from './src/constants/colors';
+import NavigationBottom from './src/components/NavigationBottom';
 
 export default function App() {
   return (
     <View style={styles.container}>
-      <Typography>Open up App.tsx to start working on your app!</Typography>
+      <NavigationBottom />
       <StatusBar style="dark" />
     </View>
   );
@@ -18,7 +18,5 @@ const styles = StyleSheet.create({
   container: {
     flex: 1,
     backgroundColor: colors.backgroundColor,
-    alignItems: 'center',
-    justifyContent: 'center',
   },
 });
