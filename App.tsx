@@ -9,7 +9,7 @@ export default function App() {
   return (
     <View style={styles.container}>
       <Typography>Open up App.tsx to start working on your app!</Typography>
-      <StatusBar style="light" />
+      <StatusBar style="dark" />
     </View>
   );
 }
@@ -17,7 +17,7 @@ export default function App() {
 const styles = StyleSheet.create({
   container: {
     flex: 1,
-    backgroundColor: colors.primary,
+    backgroundColor: colors.backgroundColor,
     alignItems: 'center',
     justifyContent: 'center',
   },
